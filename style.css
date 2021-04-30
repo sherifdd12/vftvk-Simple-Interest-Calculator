@@ -1,4 +1,27 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color:black;font-family:arial;color:white}
+h1{
+    color:grey;font-family:verdana}
+.maindiv {
+    background-color:white;
+    color:black;
+    width:300px;
+    padding:20px;
+    border-radius: 25px;
+    align:center;
+    margin: 0 auto;
+}
+.maindiv input {
+ 
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+
 
 
