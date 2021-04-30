@@ -5,7 +5,7 @@ h1{
 .maindiv {
     background-color:white;
     color:black;
-    width:300px;
+    width:500px;
     padding:20px;
     border-radius: 25px;
     align:center;
@@ -25,6 +25,12 @@ h1{
 
 .maindiv label{
     padding-right:35px;
+}
+.maindiv select{
+    margin-left:8px;
+}
+span.highlight {
+  background-color: yellow;
 }
 
 
