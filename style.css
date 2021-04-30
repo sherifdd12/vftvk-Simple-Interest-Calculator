@@ -5,11 +5,7 @@ h1{
 .maindiv {
     background-color:white;
     color:black;
-<<<<<<< HEAD
-    width:600px;
-=======
-    width:500px;
->>>>>>> 8670751c3be37f57bdae312363098b084374a255
+    width:300px;
     padding:20px;
     border-radius: 25px;
     align:center;
@@ -17,7 +13,7 @@ h1{
 }
 .maindiv input {
  
-  margin: 8px 0;
+  
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
