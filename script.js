@@ -1,6 +1,8 @@
 function compute()
 {
+    //Assign inputs to variables
    var principal = document.getElementById("principal").value;
+   //check if amount value less than or empty 1
     if (principal<1 ){
         alert("Enter a positive number")
         document.getElementById("principal").focus();
@@ -10,7 +12,7 @@ function compute()
      var years = document.getElementById("years").value;
     var interest = principal * years * rate /100;
       var year = new Date().getFullYear()+parseInt(years);
-      document.getElementById("result").innerText="If you deposit "+principal+",\<br\>at an interest rate of "+rate+"%\<br\>You will receive an amount of "+interest+",\<br\>in the year "+year+"\<br\>"
+      document.getElementById("result").innerText="If you deposit "+principal+",\<br\>at an interest rate of "+rate+"%\<br\>You will receive an amount of "+principal+",\<br\>in the year "+year+"\<br\>"
 }
      function updateRate() 
 {
